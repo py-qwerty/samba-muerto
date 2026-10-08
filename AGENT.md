@@ -10,6 +10,8 @@
 - Tono de la ruleta: «¿Quién será el siguiente en salir de Samba? ¿Serás tú?». Animar el giro y la revelación.
 
 - No incluir el panel «Lo que tu navegador cuenta de ti» ni leer datos del visitante.
-- Priorizar móvil: título, rueda, botón táctil amplio y resultado; respetar áreas seguras y pantallas estrechas.
+- Diseño minimalista: solo la ruleta centrada, sin textos visibles ni lista de integrantes. Botón accesible en el centro; al terminar, mostrar la foto elegida en ese botón. Respetar áreas seguras y pantallas estrechas.
 
 - El botón de giro debe producir una rotación visible también con movimiento reducido: una vuelta suave, sin confeti. Animar la rotación del lienzo, sin redibujar todas las fotos en cada fotograma.
+
+- La web pública del repositorio es https://py-qwerty.github.io/samba-muerto/. Sus metadatos sociales deben apuntar a la imagen pública del mismo alojamiento, no al sitio privado de Sites.

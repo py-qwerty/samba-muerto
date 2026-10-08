@@ -18,3 +18,6 @@ Puntero y centro animados durante el giro, aparición del resultado y confeti te
 
 ## Giro visible
 Rotación del lienzo mediante Web Animations: seis vueltas y frenado normal; una vuelta suave en 1,8 segundos cuando se solicita movimiento reducido. El resultado aparece al finalizar. Las fotos se dibujan al cargar, no en cada fotograma.
+
+## Dirección minimalista vigente
+Solo una rueda centrada en la pantalla, fondo azul claro y botón circular con icono de reproducción en el centro. Sin textos visibles, nombres en sectores, cabecera, lista de integrantes ni confeti. La foto ganadora aparece en el centro; el nombre se anuncia únicamente a tecnologías de asistencia.

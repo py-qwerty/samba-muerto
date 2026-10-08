@@ -20,7 +20,9 @@ El sorteo no realiza acciones en WhatsApp. No hay lectura ni almacenamiento de d
 
 ## Vista previa del enlace
 
-Los metadatos de la tarjeta apuntan al alojamiento original de Sites. Para alojarla en otro dominio, actualiza `og:url`, `og:image`, `og:image:secure_url` y `twitter:image` con la URL pública real. WhatsApp debe poder acceder a la página y a la imagen sin iniciar sesión.
+Web pública: https://py-qwerty.github.io/samba-muerto/
+
+Los metadatos de la tarjeta apuntan a la imagen pública de GitHub Pages. La vista previa incluye únicamente la ruleta con sus fotos, sin textos en la imagen.
 
 ## Verificación
 
