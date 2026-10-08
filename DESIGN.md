@@ -15,3 +15,6 @@ El usuario ha indicado no ejecutar tests sin petición expresa. No se han ejecut
 
 ## Animación y móvil
 Puntero y centro animados durante el giro, aparición del resultado y confeti temporal. Respetar movimiento reducido. Sin panel ni lectura de datos del visitante. En móvil: título, rueda, botón de ancho completo y resultado; áreas seguras y tarjetas de integrantes en tres columnas, dos en pantallas muy estrechas.
+
+## Giro visible
+Rotación del lienzo mediante Web Animations: seis vueltas y frenado normal; una vuelta suave en 1,8 segundos cuando se solicita movimiento reducido. El resultado aparece al finalizar. Las fotos se dibujan al cargar, no en cada fotograma.
