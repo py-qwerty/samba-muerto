@@ -20,3 +20,6 @@ No ejecutar tests salvo petición expresa del usuario. La publicación y el esta
 
 ## Avatares sin foto
 Dos mascotas ficticias generadas con IA: gato astronauta naranja (Rafa) y rana maga turquesa (integrante 5508). Usar como imagen de su tarjeta; conservar las 22 fotografías originales. El nombre de la persona no cambia. Origen generado indicado en datos, tooltip y nombre accesible.
+
+## Móvil compacto y exportación
+La instrucción posterior prioriza recuperar las fotos cuadradas de 50 px, sin nombre visible en móvil; filas mínimas de 64 px, etiquetas de 40 px, sin contenedor exterior que desperdicie ancho. El escritorio conserva tarjetas con foto y nombre. Orientación: «Ordena según cuánto respetas la opinión de cada persona. Te escucho.». Crear imagen produce un PNG de 1200 px de ancho con altura adaptable al ranking, filas S/A/B/C/D/F, fotos y nombres, y banco si queda alguien sin clasificar. Se usa Canvas sin librerías ni red adicional; compartir abre el selector nativo y descargar sirve de alternativa. Los rankings no se suben a un servidor. La imagen se invalida al mover una tarjeta, reiniciar o deshacer.

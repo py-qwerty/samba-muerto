@@ -13,3 +13,7 @@
 - Título exacto: «Prioridad de opiniones». Referencia visual del usuario: lienzo blanco redondeado, título grande centrado, tablero oscuro enmarcado, etiquetas S/A/B/C/D/F en rojo/naranja/amarillo/verde lima/cian/gris, tarjetas blancas con foto y nombre y banco «Sin clasificar» separado. Mantener la adaptación móvil.
 
 - Avatares generados autorizados: gato astronauta para Rafa y rana maga para el integrante 5508. Conservar los originales generados dentro de assets/ y señalar su origen en integrantes.json y etiquetas accesibles.
+
+- En móvil, priorizar la versión compacta de fotos cuadradas sin nombres visibles; mantener nombre accesible y mostrarlo al seleccionar. Filas de unos 64 px y sin márgenes exteriores grandes.
+- Texto de orientación: «Ordena según cuánto respetas la opinión de cada persona. Te escucho.».
+- Botón Crear imagen: generar un PNG local de la clasificación actual, con título, filas, fotos y nombres. Permitir compartir mediante el menú nativo (el usuario elige WhatsApp) o descargar como alternativa. No enviar mensajes automáticamente. Invalidar la imagen al cambiar el ranking.
