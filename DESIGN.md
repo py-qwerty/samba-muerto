@@ -1,23 +1,19 @@
-# La ruleta de San Batildo
+# Samba · Tier list
 
-Una mesa de juego amistosa: el giro y las caras son el centro de la experiencia.
+## Propósito
+Clasificar las fotos de los 24 integrantes en una tier list clásica. La clasificación empieza vacía y la decide cada visitante. Sustituye la ruleta.
 
-## Tokens
-Fuente de verdad: variables CSS en dist/index.html.
-Azul tinta #173c60; azul mesa #e6f0f8; blanco #ffffff; coral #fc806b; amarillo #f9cf65; verde #a1c9b9.
-Títulos: Georgia. Texto y controles: Segoe UI. Rueda circular con fotos en cada sector.
+## Dirección visual
+Tablero clásico con filas horizontales S, A, B, C, D y F. Etiquetas cuadradas de colores, fondo oscuro y fotos cuadradas. Estilo minimalista, instrucciones breves y fondo azul claro heredado de Samba. Sin secciones decorativas.
 
-## Comportamiento
-Botón nativo para girar, desactivado durante el giro. Resultado persistente con región viva. Sin exclusiones, eliminaciones ni efectos en WhatsApp. Movimiento reducido respetado. Fotografías incrustadas, sin dependencias remotas.
+## Tokens y propiedad
+Fuente de verdad: variables CSS de index.html. Fondo #e6f0f8, tinta #173c60, tablero #232b36. Filas: S #fa8585, A #f7b27d, B #f6d47a, C #99d9bb, D #92c5ee, F #c2b0e7. Tipografía Segoe UI. Foto 66 px en escritorio y 53 px en móvil; etiqueta 76/50 px. Sin librerías externas.
+
+## Interacción canónica
+Un único estado positions guarda el orden de cada fila y del banco. move mueve una foto sin duplicarla; render actualiza todos los destinos. Se puede arrastrar con ratón/dedo o seleccionar una foto y tocar una fila. En teclado, Tab y Enter seleccionan, las flechas arriba/abajo cambian de fila y Escape cancela. Las fotos vuelven al banco tocando Sin clasificar. Reiniciar admite Deshacer. No se guardan ni envían rankings.
+
+## Móvil y accesibilidad
+Filas que crecen con las fotos, sin ancho fijo ni desplazamiento horizontal. El gesto de arrastrar se limita a las fotos; el resto de la página permite scroll normal. Botones nativos, nombres accesibles de los integrantes, foco visible y mensajes de estado. El gesto táctil tiene alternativa de dos toques. Respeta movimiento reducido.
 
 ## Verificación
-El usuario ha indicado no ejecutar tests sin petición expresa. No se han ejecutado pruebas funcionales ni automatizadas.
-
-## Animación y móvil
-Puntero y centro animados durante el giro, aparición del resultado y confeti temporal. Respetar movimiento reducido. Sin panel ni lectura de datos del visitante. En móvil: título, rueda, botón de ancho completo y resultado; áreas seguras y tarjetas de integrantes en tres columnas, dos en pantallas muy estrechas.
-
-## Giro visible
-Rotación del lienzo mediante Web Animations: seis vueltas y frenado normal; una vuelta suave en 1,8 segundos cuando se solicita movimiento reducido. El resultado aparece al finalizar. Las fotos se dibujan al cargar, no en cada fotograma.
-
-## Dirección minimalista vigente
-Solo una rueda centrada en la pantalla, fondo azul claro y botón circular con icono de reproducción en el centro. Sin textos visibles, nombres en sectores, cabecera, lista de integrantes ni confeti. La foto ganadora aparece en el centro; el nombre se anuncia únicamente a tecnologías de asistencia.
+No ejecutar tests salvo petición expresa del usuario. La publicación y el estado de GitHub Pages no equivalen a validación funcional en un dispositivo.

@@ -1,29 +1,22 @@
-# Samba muerto
+# Samba · Tier list
 
-Ruleta de los 24 integrantes de San Batildo con 22 fotos originales, giro animado, confeti y resultado aleatorio con igual probabilidad para cada persona.
+https://py-qwerty.github.io/samba-muerto/
 
-**¿Quién será el siguiente en salir de Samba? ¿Serás tú?**
+Tier list clásica con las fotos de los 24 integrantes de San Batildo. Filas S, A, B, C, D y F, y un banco con las fotos pendientes de clasificar.
 
 ## Uso
 
-Abre `index.html` en un navegador moderno o sirve esta carpeta como web estática. No necesita instalación ni dependencias. Las fotos están incrustadas y la página funciona en móvil. Respeta la preferencia de movimiento reducido.
+Arrastra una foto a una fila o toca primero la foto y después la fila. Funciona con la misma interacción de selección en móvil y teclado. Puedes reordenar arrastrando sobre otra foto, devolver personas al banco y reiniciar; Deshacer recupera la última distribución.
 
-El sorteo no realiza acciones en WhatsApp. No hay lectura ni almacenamiento de datos del visitante.
+El ranking solo vive en la página abierta. No se guarda ni se comparte automáticamente. No requiere instalación, dependencias ni servidor: abre index.html o sirve esta carpeta.
 
 ## Archivos
 
-- `index.html`: interfaz y ruleta.
-- `ruleta-preview.jpg`: imagen de 1200 × 630 para compartir el enlace.
-- `integrantes.json`: nombres y disponibilidad de fotos, sin teléfonos completos.
-- `AGENT.md`: instrucciones persistentes del proyecto.
-- `DESIGN.md`: decisiones de diseño y comportamiento.
+- index.html: interfaz, fotos incrustadas y comportamiento.
+- tierlist-preview.jpg: tarjeta pública para WhatsApp.
+- integrantes.json: nombres y disponibilidad de fotos.
+- AGENT.md, DESIGN.md y UX-CONTRACT.md: instrucciones y diseño vigente.
 
-## Vista previa del enlace
+La imagen ruleta-preview.jpg se conserva para enlaces anteriores. La tier list usa tierlist-preview.jpg.
 
-Web pública: https://py-qwerty.github.io/samba-muerto/
-
-Los metadatos de la tarjeta apuntan a la imagen pública de GitHub Pages. La vista previa incluye únicamente la ruleta con sus fotos, sin textos en la imagen.
-
-## Verificación
-
-No se han ejecutado tests de desarrollo, siguiendo la instrucción del usuario.
+No se han ejecutado tests, según la instrucción expresa del usuario.

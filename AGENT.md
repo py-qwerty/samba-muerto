@@ -1,17 +1,11 @@
 # Instrucciones persistentes
+
 - No ejecutar tests de desarrollo salvo petición explícita del usuario.
-- Leer y actualizar AGENT.md con nuevas instrucciones persistentes del proyecto.
-- Interfaz en español. Mantener los 24 integrantes extraídos el 8 de octubre de 2026.
-- Usar las fotos originales disponibles; iniciales cuando no haya foto. No inventar retratos.
-- El usuario ha autorizado subir el proyecto al repositorio público py-qwerty/samba-muerto. El alojamiento Sites sigue privado salvo instrucción posterior.
-- No incluir teléfonos completos, conversaciones, estados ni credenciales.
-- Todos tienen igual probabilidad; el giro no realiza acciones en WhatsApp.
-
-- Tono de la ruleta: «¿Quién será el siguiente en salir de Samba? ¿Serás tú?». Animar el giro y la revelación.
-
-- No incluir el panel «Lo que tu navegador cuenta de ti» ni leer datos del visitante.
-- Diseño minimalista: solo la ruleta centrada, sin textos visibles ni lista de integrantes. Botón accesible en el centro; al terminar, mostrar la foto elegida en ese botón. Respetar áreas seguras y pantallas estrechas.
-
-- El botón de giro debe producir una rotación visible también con movimiento reducido: una vuelta suave, sin confeti. Animar la rotación del lienzo, sin redibujar todas las fotos en cada fotograma.
-
-- La web pública del repositorio es https://py-qwerty.github.io/samba-muerto/. Sus metadatos sociales deben apuntar a la imagen pública del mismo alojamiento, no al sitio privado de Sites.
+- Leer AGENT.md al trabajar en el proyecto y actualizarlo con nuevas instrucciones persistentes.
+- Explicar las cosas complejas de forma didáctica, desde ejemplos sencillos hasta conceptos más avanzados, para alguien sin conocimientos previos del proyecto o del código.
+- La interfaz vigente es una tier list clásica: filas horizontales S, A, B, C, D y F con colores y un banco de fotos sin clasificar. Sustituye la ruleta.
+- Mantener un estilo minimalista y priorizar el funcionamiento en móvil. Incluir arrastre con ratón/dedo y alternativa de tocar foto y fila; permitir teclado.
+- Conservar los 24 integrantes y sus 22 fotos originales. No inventar retratos ni clasificaciones. No incluir teléfonos completos, estados, conversaciones ni credenciales.
+- No incluir paneles ni lectura de datos del navegador. La clasificación pertenece a cada visitante y no se envía a un servidor.
+- Repositorio público autorizado: py-qwerty/samba-muerto. Web pública: https://py-qwerty.github.io/samba-muerto/. Metadatos sociales e imagen en ese mismo alojamiento público.
+- El alojamiento anterior de Sites conserva su acceso privado salvo instrucción posterior. El destino solicitado para esta versión es GitHub Pages.
