@@ -2,7 +2,7 @@
 
 https://py-qwerty.github.io/samba-muerto/
 
-Tier list clásica con las fotos de los 24 integrantes de San Batildo. Filas S, A, B, C, D y F, y un banco con las fotos pendientes de clasificar.
+Tier list clásica de los 24 integrantes de San Batildo: 22 fotos originales y dos avatares ilustrados aleatorios para quienes no tenían foto. Filas S, A, B, C, D y F, y un banco con las fotos pendientes de clasificar.
 
 ## Uso
 
@@ -14,7 +14,8 @@ El ranking solo vive en la página abierta. No se guarda ni se comparte automát
 
 - index.html: interfaz, fotos incrustadas y comportamiento.
 - tierlist-preview.jpg: tarjeta pública para WhatsApp.
-- integrantes.json: nombres y disponibilidad de fotos.
+- integrantes.json: nombres, disponibilidad de fotos y origen de los avatares.
+- assets/: avatares aleatorios generados de Rafa y del integrante 5508.
 - AGENT.md, DESIGN.md y UX-CONTRACT.md: instrucciones y diseño vigente.
 
 La imagen ruleta-preview.jpg se conserva para enlaces anteriores. La tier list usa tierlist-preview.jpg.

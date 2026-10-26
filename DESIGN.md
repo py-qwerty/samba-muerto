@@ -17,3 +17,6 @@ Filas que crecen con las fotos, sin ancho fijo ni desplazamiento horizontal. El 
 
 ## Verificación
 No ejecutar tests salvo petición expresa del usuario. La publicación y el estado de GitHub Pages no equivalen a validación funcional en un dispositivo.
+
+## Avatares sin foto
+Dos mascotas ficticias generadas con IA: gato astronauta naranja (Rafa) y rana maga turquesa (integrante 5508). Usar como imagen de su tarjeta; conservar las 22 fotografías originales. El nombre de la persona no cambia. Origen generado indicado en datos, tooltip y nombre accesible.

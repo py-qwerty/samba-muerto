@@ -81,7 +81,9 @@
   },
   {
     "nombre": "Rafa",
-    "foto_disponible": false
+    "foto_disponible": false,
+    "avatar_generado": true,
+    "imagen_avatar": "assets/rafa-avatar.png"
   },
   {
     "nombre": "Integrante · 3812",
@@ -93,6 +95,8 @@
   },
   {
     "nombre": "Integrante · 5508",
-    "foto_disponible": false
+    "foto_disponible": false,
+    "avatar_generado": true,
+    "imagen_avatar": "assets/integrante-5508-avatar.png"
   }
 ]
