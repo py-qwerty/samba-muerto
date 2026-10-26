@@ -23,3 +23,5 @@ El ranking solo vive en la página abierta. No se guarda ni se comparte automát
 La imagen ruleta-preview.jpg se conserva para enlaces anteriores. La tier list usa tierlist-preview.jpg.
 
 No se han ejecutado tests, según la instrucción expresa del usuario.
+
+Broma de exportación solicitada: Pablo aparece automáticamente en S en la imagen generada; el tablero conserva el orden elegido.
