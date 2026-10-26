@@ -4,10 +4,10 @@
 Clasificar las fotos de los 24 integrantes en una tier list clásica. La clasificación empieza vacía y la decide cada visitante. Sustituye la ruleta.
 
 ## Dirección visual
-Tablero clásico con filas horizontales S, A, B, C, D y F. Etiquetas cuadradas de colores, fondo oscuro y fotos cuadradas. Estilo minimalista, instrucciones breves y fondo azul claro heredado de Samba. Sin secciones decorativas.
+Referencia suministrada por el usuario: tarjeta blanca grande, esquinas redondeadas, título «Prioridad de opiniones» centrado y destacado. Tablero oscuro enmarcado con filas S/A/B/C/D/F; tarjetas individuales blancas con fotografía y nombre. Banco «Sin clasificar» independiente, borde sutil y bandeja gris. Empezar con todos sin clasificar; no inventar rankings.
 
 ## Tokens y propiedad
-Fuente de verdad: variables CSS de index.html. Fondo #e6f0f8, tinta #173c60, tablero #232b36. Filas: S #fa8585, A #f7b27d, B #f6d47a, C #99d9bb, D #92c5ee, F #c2b0e7. Tipografía Segoe UI. Foto 66 px en escritorio y 53 px en móvil; etiqueta 76/50 px. Sin librerías externas.
+Fuente de verdad: variables CSS de index.html. Fondo #f2f3f7, tinta #10182b, tablero #2b3544, marco #202b3b. Filas S #ff8080, A #ffc382, B #ffe184, C #bbff78, D #80def7, F #cbd5e2. Tarjetas 118 × 140 px en escritorio, 76 × 106 px en móvil; fotos 76/55 px. Tipografía Segoe UI. Las filas crecen y envuelven las tarjetas en móvil, sin scroll horizontal.
 
 ## Interacción canónica
 Un único estado positions guarda el orden de cada fila y del banco. move mueve una foto sin duplicarla; render actualiza todos los destinos. Se puede arrastrar con ratón/dedo o seleccionar una foto y tocar una fila. En teclado, Tab y Enter seleccionan, las flechas arriba/abajo cambian de fila y Escape cancela. Las fotos vuelven al banco tocando Sin clasificar. Reiniciar admite Deshacer. No se guardan ni envían rankings.

@@ -1,4 +1,4 @@
-# Samba · Tier list
+# Prioridad de opiniones
 
 https://py-qwerty.github.io/samba-muerto/
 

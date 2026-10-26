@@ -9,3 +9,5 @@
 - No incluir paneles ni lectura de datos del navegador. La clasificación pertenece a cada visitante y no se envía a un servidor.
 - Repositorio público autorizado: py-qwerty/samba-muerto. Web pública: https://py-qwerty.github.io/samba-muerto/. Metadatos sociales e imagen en ese mismo alojamiento público.
 - El alojamiento anterior de Sites conserva su acceso privado salvo instrucción posterior. El destino solicitado para esta versión es GitHub Pages.
+
+- Título exacto: «Prioridad de opiniones». Referencia visual del usuario: lienzo blanco redondeado, título grande centrado, tablero oscuro enmarcado, etiquetas S/A/B/C/D/F en rojo/naranja/amarillo/verde lima/cian/gris, tarjetas blancas con foto y nombre y banco «Sin clasificar» separado. Mantener la adaptación móvil.
